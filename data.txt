@@ -1,0 +1,31 @@
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    fullName VARCHAR(100),
+    age INT,
+    bloodGroup VARCHAR(5),
+    rollNumber VARCHAR(15) UNIQUE,
+    currMeds VARCHAR(255)
+);
+
+INSERT INTO students (id, fullName, age, bloodGroup, rollNumber, currMeds) VALUES
+(1, 'Student 1', 17, 'A+', '2024UGEE001', 'Paracetamol 500 mg'),
+(2, 'Student 2', 19, 'B-', '2024UGEE002', 'Ibuprofen 200 mg'),
+(3, 'Student 3', 20, 'O+', '2024UGEE003', 'Cetirizine 10 mg'),
+(4, 'Student 4', 18, 'AB-', '2024UGEE004', 'Metformin 500 mg'),
+(5, 'Student 5', 17, 'B+', '2024UGEE005', 'Montelukast 10 mg'),
+(6, 'Sisanta Chhatoi', 19, 'O+', '2024UGEE006', 'xyz'),
+(7, 'Student 7', 19, 'A-', '2024UGEE007', 'Omeprazole 20 mg'),
+(8, 'Student 8', 18, 'AB+', '2024UGEE008', 'Aspirin 75 mg'),
+(9, 'Student 9', 17, 'B+', '2024UGEE009', 'Salbutamol 2 mg'),
+(10, 'Student 10', 20, 'A+', '2024UGEE010', 'Ranitidine 150 mg'),
+(11, 'Student 11', 18, 'O-', '2024UGEE011', 'Amoxicillin 500 mg'),
+(12, 'Student 12', 19, 'A+', '2024UGEE012', 'Metformin 850 mg'),
+(13, 'Student 13', 20, 'B-', '2024UGEE013', 'Cetirizine 5 mg'),
+(14, 'Student 14', 17, 'AB+', '2024UGEE014', 'Lisinopril 10 mg'),
+(15, 'Student 15', 18, 'O+', '2024UGEE015', 'Prednisolone 5 mg'),
+(16, 'Student 16', 19, 'A-', '2024UGEE016', 'Losartan 50 mg'),
+(17, 'Student 17', 20, 'B+', '2024UGEE017', 'Atorvastatin 10 mg'),
+(18, 'Student 18', 17, 'AB-', '2024UGEE018', 'Amlodipine 5 mg'),
+(19, 'Student 19', 18, 'O-', '2024UGEE019', 'Furosemide 40 mg'),
+(20, 'Student 20', 19, 'A+', '2024UGEE020', 'Simvastatin 20 mg'),
+(29, 'Pranaw Kumar', 18, 'B+', '2024UGEE029', 'Montair 10 mg')
